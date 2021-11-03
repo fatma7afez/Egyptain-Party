@@ -1,0 +1,220 @@
+body{
+    font-size: 16px;
+    text-transform: capitalize;
+    overflow-y: hidden;
+}
+
+.main-color{
+    color: #777;
+}
+
+.main-color-2{
+    color: rgba(214, 46, 51 , 0.6); 
+}
+
+.main-bgColor{
+    background-color:rgba(214, 46, 51 , 0.6); 
+}
+
+.main-bgColor2{
+    background-color: #777;
+}
+
+/* /header-section/ */
+header{
+    background-image: url(../imgs/events-heavenly-header.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.hder-overlay{
+     background-color:rgba(214, 46, 51 , 0.6); 
+     height:100%
+
+}
+
+/* /nav-section/ */
+.navbar{
+    background-color: #414658;
+    position: relative;
+    /* left: 0; */
+    z-index: 99999;
+}
+
+#myClose{
+    cursor: pointer;
+    position: absolute;
+    right:1rem;
+    top: 3.5rem;
+}
+
+#myOpen{
+    font-size: 2rem;
+    color: white;
+    cursor:pointer;
+    position: absolute;
+    right: -120px;
+    z-index: 99999;
+}
+
+.nav-item a{
+    color: white;
+    transition: color 1s;
+}
+
+
+.nav-item:hover a{
+    color: rgba(214, 46, 51 , 0.6);
+}
+/* ../nav-section/ */
+
+
+.btn-close{
+    background-image: url(../imgs/226-2260721_transparent-white-x-png-png-download.png);
+}
+
+.hder-content{
+    position:absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.hd-1{
+    font-size: 4rem;
+}
+/* ../header-section/ */
+
+
+
+/* /counter-section/ */
+.counter{
+    background-image: url('../imgs/invitation-2508607__340.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.counter-overlay{
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+.counter-info{
+    border:1px solid white ;
+     ;
+}
+.px-40{
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+}
+/* ../counter-section/ */
+
+/* ../songs-section/ */
+
+.item h4{
+    cursor: pointer;
+}
+
+.item blockquote{
+    display: none;
+}
+/* ../songs-section/ */
+
+/* /footer-section/ */
+#userMessage{
+    height: 100px;
+}
+
+.myIcon{
+    border: 1px solid gray;
+    padding:12px ;
+    transition:background-color 1s ;
+}
+
+.myIcon:hover{
+    background-color:rgba(214, 46, 51 , 0.6);  ;
+}
+/* ../footer-section/ */
+
+/* /loading screen/ */
+.loading{
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999999999;
+    display: flex;
+}
+
+
+.loader {
+    color: #ffffff;
+    font-size: 10px;
+    margin: 100px auto;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    position: relative;
+    text-indent: -9999em;
+    -webkit-animation: load4 1.3s infinite linear;
+    animation: load4 1.3s infinite linear;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  @-webkit-keyframes load4 {
+    0%,
+    100% {
+      box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+      box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+      box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+      box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+      box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+  }
+  @keyframes load4 {
+    0%,
+    100% {
+      box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+      box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+      box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+      box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+      box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+  }
+  
+/* ../loading screen/ */

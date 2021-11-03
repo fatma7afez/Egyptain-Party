@@ -1,0 +1,249 @@
+<html>
+  <head>
+    <title>egyptain party</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Fatma Hafez" />
+    <meta name="description" content="egyptain party" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="html,css,js,jQuery,book,party,songs and contacts"
+    />
+
+
+    <!-- main icon page -->
+    <link rel="icon" href="imgs/icon-tickets-red.png">
+
+    <!-- Fontawesome Link -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Page Style Link -->
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- /loading-section/ -->
+    <div class="loading justify-content-center align-items-center" id="load">
+      <div class="loader"></div>
+    </div>
+
+    <!-- ../loading-section/ -->
+
+    <!-- /header/ -->
+    <header class="hd-section" id="home">
+      <div class="hder-overlay">
+        <nav class="navbar w-25 vh-100" id="navBar">
+          <ul class="nav-list list-unstyled h-100 py-4 px-4">
+            <li class="nav-item">
+              <a class="nav-link"
+                ><i class="fas fa-times fa-lg" id="myClose"></i
+              ></a>
+            </li>
+            <li class="nav-item py-2">
+              <a href="#home" class="nav-link text-decoration-none fs-3"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item py-2">
+              <a href="#counter" class="nav-link text-decoration-none fs-3"
+                >Duration</a
+              >
+            </li>
+            <li class="nav-item py-2">
+              <a href="#details" class="nav-link text-decoration-none fs-3"
+                >Details</a
+              >
+            </li>
+            <li class="nav-item py-2">
+              <a href="#contact" class="nav-link text-decoration-none fs-3"
+                >contact</a
+              >
+            </li>
+          </ul>
+          <span id="myOpen">☰ open</span>
+        </nav>
+
+        <section class="container">
+          <div class="hder-content text-center text-white">
+            <h1 class="hd-1">Egyption Party</h1>
+            <span>Let's have Fun</span>
+          </div>
+        </section>
+      </div>
+    </header>
+    <!-- ../header/  -->
+
+    <!-- /songs section/ -->
+    <section
+      class="songs d-flex flex-column justify-content-center align-items-center"
+      id="details"
+    >
+      <div class="item item-1 w-50 p-5 text-center">
+        <h4 class="main-bgColor text-white p-2 m-0">singer one</h4>
+        <blockquote class="main-bgColor2 p-3 m-0 song">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </blockquote>
+
+        <h4 class="main-bgColor text-white p-2 m-0">singer two</h4>
+        <blockquote class="main-bgColor2 p-3 m-0 song">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </blockquote>
+
+        <h4 class="main-bgColor text-white p-2 m-0">singer three</h4>
+        <blockquote class="main-bgColor2 p-3 m-0 song">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </blockquote>
+
+        <h4 class="main-bgColor text-white p-2 m-0">singer four</h4>
+        <blockquote class="main-bgColor2 p-3 m-0 song">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ../songs section/ -->
+
+    <!-- /counter/  -->
+    <section class="counter text-white my-5" id="counter">
+      <div class="counter-overlay">
+        <div class="container py-5">
+          <div class="d-flex fs-4 justify-content-evenly py-5">
+            <div class="counter-info py-5 px-40" id="counterDay"></div>
+            <div class="counter-info py-5 px-40" id="counterHours"></div>
+            <div class="counter-info py-5 px-40" id="counterMiuntes"></div>
+            <div class="counter-info py-5 px-40" id="counterSecond"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ../counter/  -->
+
+    <!-- /footer/ -->
+    <footer class="p-5" id="contact">
+      <div class="container">
+        <div class="hd-footer">
+          <h3 class="fw-bold fs-2 text-uppercase mb-3">join us</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          </p>
+        </div>
+        <div class="row py-5">
+          <div class="col-md-6 p-2">
+            <div class="footer-info">
+              <!-- /footer-info/ -->
+              <h4 class="text-uppercase fs-5 fw-bold">contact info</h4>
+              <p class="main-color">
+                Why you should hire me writeup Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+              </p>
+              <ul class="list-unstyled main-color text-center">
+                <li class="px-2 py-4">
+                  <i class="fas fa-map-marker-alt mx-4"></i>
+                  <span>New Street 22545, Nexa Road, New York City, USA</span>
+                </li>
+                <li class="px-2 py-4">
+                  <i class="fas fa-envelope mx-4"></i>
+                  <span class="main-color-2">ello@uigrid.com</span>
+                </li>
+                <li class="px-2 py-4">
+                  <i class="fas fa-phone mx-4"></i>
+                  <span>001-000-000-000</span>
+                </li>
+              </ul>
+            </div>
+            <!-- ../footer-info/ -->
+            <div>
+              <!-- /footer-social/ -->
+              <ul class="list-unstyled d-flex main-color p-2">
+                <li><i class="fab fa-facebook-f fa-lg myIcon"></i></li>
+                <li><i class="fab fa-twitter fa-lg myIcon"></i></li>
+                <li><i class="fab fa-google-plus-g fa-lg myIcon"></i></li>
+                <li><i class="fab fa-github fa-lg myIcon"></i></li>
+                <li><i class="fab fa-behance fa-lg myIcon"></i></li>
+                <li><i class="fab fa-dribbble fa-lg myIcon"></i></li>
+              </ul>
+            </div>
+            <!-- ./footer-social/ -->
+          </div>
+
+          <div class="col-md-6 p-2">
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control p-2"
+                  id="userName"
+                  placeholder="Enter name"
+                />
+              </div>
+
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control p-2"
+                  id="userEmail"
+                  placeholder="Enter email"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  id="userMessage"
+                  class="form-control"
+                  placeholder="Enter message"
+                ></textarea>
+              </div>
+              <p>
+                <span class="text-danger" id="count">100</span> Characyer
+                Reamining
+              </p>
+              <button class="btn btn-danger text-uppercase" id="ButtonForm">
+                send message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /footer/ -->
+
+    <!-- JQuery Link -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- bundle Link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Page Main Script Link -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
